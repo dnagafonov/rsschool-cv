@@ -49,3 +49,7 @@ Self-education by courses like:
  + Functional Web Development with React and Redux
 
 Since 2017 i styding in College business and law.
+
+## English 
+
+> A2 - B1
