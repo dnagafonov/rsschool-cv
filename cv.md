@@ -34,3 +34,18 @@ familyRouter.get(`/:name`, (req, res) => {
         res.status(404).send(`404`);
 });
 ```
+## Experience, Education
+
+Self-education by courses like: 
+ + [Node js](https://htmlacademy.ru/intensive/nodejs)
+ + [Express](https://www.udemy.com/course/node-express/)
+ + [React by Yury Bura](https://www.udemy.com/course/pro-react-redux/)
+ + [React by Maximilian Schwarzmüller](https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
+ 
+ Books:
+ + [JavaScript](https://learn.javascript.ru/)
+ + You don't know js async & performance
+ + React redux functional programming
+ + Functional Web Development with React and Redux
+
+Since 2017 i styding in College business and law.
