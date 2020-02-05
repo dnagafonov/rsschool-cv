@@ -7,6 +7,7 @@ font-family: 'Raleway', Arial, Helvetica, sans-serif;
 
 body {
   min-width: 800px;
+  max-width: 2000px;
 }
 
 ::selection {
@@ -91,4 +92,50 @@ header {
   margin: 0 10%;
 
   background-color: lightsalmon;
+}
+
+main {
+  padding: 2%;
+  margin: 0 10%;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: #f2f2f2;
+}
+
+article {
+  width: 80%;
+  min-height: 50px;
+  margin: 0 10% 20px 10%;
+
+  display: flex;
+  flex-direction: row;
+
+  border-bottom: 2px solid rgb(250, 178, 149);
+}
+
+.article-name {
+  width: 20%;
+
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.article-body {
+  width: 75%;
+  padding-bottom: 10px;
+}
+
+.article-body ul {
+  column-count: 3;
+}
+
+.article-body ul li {
+  display: list-item;
+  list-style: none;
+}
+
+article:last-child {
+  border: none;
 }
