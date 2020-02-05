@@ -10,6 +10,13 @@ body {
   max-width: 2000px;
 }
 
+header,
+main,
+footer,
+.divider {
+  margin: 0 10%;
+}
+
 ::selection {
   background-color: lightslategray;
   color: #f2f2f2;
@@ -23,7 +30,7 @@ a:visited {
 header {
   width: 80%;
   height: 120px;
-  margin: 0 10%;
+
 
   display: flex;
   flex-direction: row;
@@ -89,14 +96,11 @@ header {
   height: 3px;
   width: 80%;
 
-  margin: 0 10%;
-
   background-color: lightsalmon;
 }
 
 main {
-  padding: 2%;
-  margin: 0 10%;
+  padding: 2% 2% 0 2%;
 
   display: flex;
   flex-direction: column;
@@ -137,11 +141,29 @@ article {
 }
 
 article:last-child {
-  border: none;
   padding-bottom: 0;
   margin-bottom: 0;
+
+  border: none;
 }
 
 .experience .article-body div{
   font-size: 0.9em;
+}
+
+footer {
+  height: 60px;
+  width: 80%;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  font-size: 1.5em;
+
+  background-color: #f2f2f2;
+}
+
+footer a:last-child {
+  font-size: 1.2em;
 }
