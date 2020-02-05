@@ -82,11 +82,11 @@ header {
   font-size: 30px;
 }
 
-.contact-info-container li {
+.contact-info-container div {
   display: inline-block;
 }
 
-.contact-info-container li:last-child {
+.contact-info-container div:last-child {
   display: inline-block;
 
   font-size: 1.1em;
